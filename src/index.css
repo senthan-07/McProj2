@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+body, html {
+    margin: 0;
+    padding: 0;
+    background-color: #0B0C10; /* Dark background for the whole page */
+    color: #ffffff; /* Light text for contrast */
+    font-family: Arial, sans-serif; /* A basic, clean font */
+    min-height: 100vh; /* Ensure body covers full viewport height */
+    width: 100%; /* Ensure body covers full viewport width */
+}
+
+a {
+    text-decoration: none;
+    color: #1E90FF; /* Light blue link color for visibility */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    background-color: #1F2833; /* Darker background for the header */
+}
+
+main {
+    padding: 2rem; /* Padding for main content */
+    background-color: #0B0C10; /* Dark background for the main content */
+}
+
+.container {
+    max-width: 1200px; /* Limit the width of the container */
+    margin: 0 auto; /* Center align the container */
+}
+
+.mnemonic-grid div {
+    background-color: #1F2833; /* Darker background for grid items */
+    color: #C5C6C7; /* Light gray text for grid items */
+    border: 1px solid #45A29E; /* Border color */
+    padding: 10px;
+    text-align: center;
+    transition: background-color 0.3s; /* Transition effect */
+}
+
+.mnemonic-grid div:hover {
+    background-color: #45A29E; /* Change background color on hover */
+}
