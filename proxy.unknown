@@ -1,0 +1,15 @@
+#!/bin/bash
+
+# Set HTTP Proxy
+export http_proxy="http://username:password@proxyserver:port"
+export https_proxy="http://username:password@proxyserver:port"
+export ftp_proxy="http://username:password@proxyserver:port"
+
+# Optional: Set exceptions for specific domains to bypass the proxy
+export no_proxy="localhost,127.0.0.1,.mycompany.com"
+
+# Display the current proxy settings
+echo "HTTP Proxy: $http_proxy"
+echo "HTTPS Proxy: $https_proxy"
+echo "FTP Proxy: $ftp_proxy"
+echo "No Proxy: $no_proxy"
