@@ -1,5 +1,3 @@
-It looks like you'd like to adjust the flow of your app so that the **Wallets** section isn't accessible until a **Mnemonic** has been generated or entered. Below, I’ve updated the **README.md** to reflect this requirement, explaining the flow of the app from **Generate Mnemonic** to **View Wallets** in a more step-by-step approach.
-
 ---
 
 # Custom Web Wallet
@@ -169,4 +167,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-This **README** now emphasizes the **Mnemonic Creation** step and the restriction of wallet access until the mnemonic is generated or entered. This ensures a clear, secure, and guided flow through the app for users.
