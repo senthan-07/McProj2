@@ -1,4 +1,4 @@
-It looks like you are trying to structure a document with multiple headings, and you may want to include a link (likely for a video or resource) under the **"Side Channel Using Proxy"** heading. Here's how you could format the content:
+
 
 ---
 
